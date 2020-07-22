@@ -54,6 +54,9 @@ h3:first-letter {
     font-style: italic; 
     font-size: 135% 
 }
+td{
+    text-decoration: none;
+}
 
 footer{
     border-top: 1px solid #000000;
