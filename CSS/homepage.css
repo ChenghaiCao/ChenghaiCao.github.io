@@ -1,0 +1,62 @@
+/*
+    a. Chenghai Cao
+    b. Chenghai_cao@student.uml.edu
+    c. Chenghai Cao is learning in Umass Lowell undergrad student, Computer Science Major, this is Chenghai Cao's homework 2 in 91.61 GUI Programming I as a student.
+    d. July/11/2020
+    e. This webpage is mainly displays my GUI class's work and help  prof and TA easier to check my work.
+
+    Copyright (c) 2020 by Chenghai Cao. All rights reserved.
+*/
+
+body {
+    background-color: #ADD8E6;
+}
+
+/*webpage title*/
+h1{ 
+    font-size: 40px;
+    font-family: arial;
+    text-align: center;
+}
+
+HR{
+    width: 95%;
+    color: #987cb9;
+}
+
+#tittle {
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+    color: #708090;
+}
+
+/*Homework List title*/
+h2{ 
+    font-size: 30px;
+    font-family: arial;
+    text-align: center;
+    
+}
+
+h2:first-letter { 
+    font-style: italic; 
+    font-size: 150% 
+}
+
+/*homework title*/
+h3{
+    font-size: 20px;
+    font-family: arial;
+    text-align: left;
+}
+h3:first-letter { 
+    font-style: italic; 
+    font-size: 135% 
+}
+
+footer{
+    border-top: 1px solid #000000;
+    padding-top: 15px;
+    text-align: center;
+}
