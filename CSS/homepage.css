@@ -1,69 +1,201 @@
-/*
+<!DOCTYPE HTML>
+<!--
     a. Chenghai Cao
     b. Chenghai_cao@student.uml.edu
     c. Chenghai Cao is learning in Umass Lowell undergrad student, Computer Science Major, this is Chenghai Cao's homework 2 in 91.61 GUI Programming I as a student.
     d. July/21/2020
     e. This webpage is mainly displays my GUI class's work and help  prof and TA easier to check my work.
-
     Copyright (c) 2020 by Chenghai Cao. All rights reserved.
-*/
+-->
 
-body {
-    background-color: #ADD8E6;
-    text-decoration: none;
-    text-align: center;
-}
+<html lang="en">
+  <head>
+    <style>a{TEXT-DECORATION:none}</style>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS/homepage.css">
+    <title>Chenghai's GUI HomePage</title>
+  </head>
 
-/*webpage title*/
-h1{
-    font-size: 40px;
-    font-family: arial;
-    text-align: center;
-}
+  <body>
+    <div class = "row">
+      <div class = "col-xs-6 col-sm-2 col-md-6">
+      <h1>COMP 4610 GUI 1</h1>
+      <HR>
+      <div id = "tittle">
+        <p>Personal Information:
+        <p>Chenghai Cao
+        <p>Hello! This is Chenghai's GUI 1 Homepage, I am learning in UMASS Lowell as Computer Science major.
+        <p>Feel free to contact me if you have any question or suggestion through email: Chenghai_cao@student.uml.edu.
+        <p>Stay safe and keep away from COVID-19!
+      </div>
+      <HR>
+      </div>
+      <div class = "col-xs-6 col-sm-4 col-md-6">
+      <h2>Homework List</h2>
+      <br>
+      <br>
 
-HR{
-    width: 95%;
-    color: #987cb9;
-}
+      <h3>Homework 1                            Due on 7/8/2020</h3>
+      <table>
+        <tr>
+            <td>
+            <a href="meterials/HW1.pdf">
+              <button type="button" style ="width:130px; height:40px">
+	           Instruction
+           </button>
+	          </a>
+	          <a href="none">
+              <button type="button" style ="width:130px; height:40px">
+	             Submitted
+             </button>
+	          </a>
+            </td>
+        </tr>
+    </table>
 
-#tittle {
-    font-size: 20px;
-    font-family: arial;
-    text-align: center;
-    color: #708090;
-}
+    <h3>Homework 2                            Due on 7/13/2020</h3>
+    <table>
+        <tr>
+             <td>
+                  <a href="meterials/HW2_new.pdf">
+                    <button type="button" style ="width:130px; height:40px">
+	      Instruction
+        </button>
+	  </a>
+	  <a href="none">
+      <button type="button" style ="width:130px; height:40px">
+	      Submitted
+      </button>
+	  </a>
+             </td>
+        </tr>
+    </table>
 
-/*Homework List title*/
-h2{
-    font-size: 30px;
-    font-family: arial;
-    text-align: center;
+    <h3>Homework 3                            Due on 7/20/2020</h3>
+    <table>
+        <tr>
+             <td>
+                  <a href="none">
+                    <button type="button" style ="width:130px; height:40px">
+	      Instruction
+      </button>
+	  </a>
+	  <a href="none">
+      <button type="button" style ="width:130px; height:40px">
+	      Need to Submit
+      </button>
+	  </a>
+             </td>
+        </tr>
+    </table>
 
-}
+    <h3>Homework 4                            Due on 7/22/2020</h3>
+    <table>
+        <tr>
+             <td>
+               <a href="meterials/HW2_new.pdf">
+                 <button type="button" style ="width:130px; height:40px">
+     Instruction
+     </button>
+ </a>
+ <a href="none">
+   <button type="button" style ="width:130px; height:40px">
+     Need to Submit
+   </button>
+ </a>
+             </td>
+        </tr>
+    </table>
 
-h2:first-letter {
-    font-style: italic;
-    font-size: 150%
-}
+    <h3>Midterm Exam Review Meterials</h3>
+    <table>
+        <tr>
+             <td>
+                  <a href="none">
+                  <button type="button" style ="width:270px; height:40px">
+	      Meterials
+      </button>
+	  </a>
+             </td>
+        </tr>
+    </table>
 
-/*homework title*/
-h3{
-    font-size: 20px;
-    font-family: arial;
-    text-align: left;
-    text-align: center;
-}
-h3:first-letter {
-    font-style: italic;
-    font-size: 135%
-}
+    <h3>Homework 5                            Due on 7/27/2020</h3>
+    <table>
+        <tr>
+             <td>
+               <a href="meterials/HW2_new.pdf">
+                 <button type="button" style ="width:130px; height:40px">
+     Instruction
+     </button>
+ </a>
+ <a href="none">
+   <button type="button" style ="width:130px; height:40px">
+     Need to Submit
+   </button>
+ </a>
+             </td>
+        </tr>
+    </table>
 
-table{
-    text-decoration: none;
-    margin: auto;
-}
-footer{
-    border-top: 1px solid #000000;
-    padding-top: 15px;
-    text-align: center;
-}
+    <h3>Homework 6                            Due on 8/3/2020</h3>
+    <table>
+        <tr>
+             <td>
+               <a href="meterials/HW2_new.pdf">
+                 <button type="button" style ="width:130px; height:40px">
+     Instruction
+     </button>
+ </a>
+ <a href="none">
+   <button type="button" style ="width:130px; height:40px">
+     Need to Submit
+   </button>
+ </a>
+             </td>
+        </tr>
+    </table>
+
+    <h3>Homework 7                            Due on 8/12/2020</h3>
+    <table>
+        <tr>
+             <td>
+               <a href="meterials/HW2_new.pdf">
+                 <button type="button" style ="width:130px; height:40px">
+     Instruction
+     </button>
+ </a>
+ <a href="none">
+   <button type="button" style ="width:130px; height:40px">
+     Need to Submit
+   </button>
+ </a>
+             </td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <HR>
+
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+        </a>
+    </p>
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+        </a>
+   </p>
+   <footer>
+        <p>Copyright (c) 2020 by Chenghai Cao. All rights reserved.</p>
+   </footer>
+   </div>
+   </body>
+</html>
