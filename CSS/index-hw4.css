@@ -44,7 +44,7 @@ h2{
 
 h2:first-letter {
     font-style: italic;
-    font-size: 150%
+    font-size: 150%;
 }
 
 /*homework title*/
@@ -57,7 +57,7 @@ h3{
 }
 h3:first-letter {
     font-style: italic;
-    font-size: 135%
+    font-size: 135%;
 }
 
 table{
