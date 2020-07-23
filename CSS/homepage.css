@@ -1,7 +1,7 @@
 /*
     a. Chenghai Cao
     b. Chenghai_cao@student.uml.edu
-    c. Chenghai Cao is learning in Umass Lowell undergrad student, Computer Science Major, this is Chenghai Cao's homework 4 in 91.61 GUI Programming I as a student.
+    c. Chenghai Cao is learning in Umass Lowell undergrad student, Computer Science Major, this is Chenghai Cao's homework 2 in 91.61 GUI Programming I as a student.
     d. July/21/2020
     e. This webpage is mainly displays my GUI class's work and help  prof and TA easier to check my work.
 
@@ -11,7 +11,7 @@
 body {
     background-color: #ADD8E6;
     text-decoration: none;
-    text-align: center;
+
 }
 
 /*webpage title*/
@@ -37,33 +37,56 @@ HR{
 h2{
     font-size: 30px;
     font-family: arial;
-    text-align: center;
+    margin-left: 275px;
+
 
 }
 
 h2:first-letter {
     font-style: italic;
-    font-size: 150%;
+    font-size: 150%
 }
 
 /*homework title*/
 h3{
     font-size: 20px;
     font-family: arial;
-    text-align: left;
-    text-align: center;
+    margin-left: 250px;
+
+
 }
 h3:first-letter {
     font-style: italic;
-    font-size: 135%;
+    font-size: 135%
 }
 
 table{
     text-decoration: none;
-    margin: auto;
+    float: inherit;
+    text-align: center;
+    margin-left: 250px;
 }
 footer{
     border-top: 1px solid #000000;
     padding-top: 15px;
     text-align: center;
+
+}
+
+.left {
+  float: left;
+  margin-left: 20px;
+  margin-top: 150px;
+  margin-bottom: 190px;
+  padding: 20px 70px 20px 20px;
+
+}
+
+.sidepic {
+  float: right;
+
+  margin-top: 150px;
+  margin-bottom: 200px;
+  padding: 20px 90px 40px 40px;
+
 }
